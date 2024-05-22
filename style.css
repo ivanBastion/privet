@@ -1,0 +1,24 @@
+
+  .box{
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    animation-name: point2;
+animation-duration: 10s;
+color: blue;
+  }
+   @keyframes point2{
+    0%{
+    transform: translateY(250px);
+    }
+    25%{
+        transform: translateX(250px);
+        }
+        50%{
+            transform: translateY(250px);
+            }
+    100%{
+      transform: translateX(250px);
+    }
+  }
+  
