@@ -8,8 +8,19 @@ animation-duration: 10s;
 color: blue;
   }
    @keyframes point2{
-   
-    0%,100%{
+    
+    0%,100%{transform: translate(0,0)
+        
+        }
+        25%{transform: translate(200%,0)
+        
+        }
+        50%{transform: translate(200%,200%)
+                }
+        75%{transform: translate(0,200%)
+        
+                }
+    /* 0%,100%{
         transform: translateX(0)
         translateY(0);
         }
@@ -24,15 +35,9 @@ color: blue;
             75%{
               transform: translateX(0%)
               translateY(200%);
-              }
+              } */
   }
 
  
    
-  /* 75%{
-    transform: translateX(-250px);
-    }
-50%{
-      transform: translateY(250px);
-      }
-   */
+  
